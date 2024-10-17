@@ -1,51 +1,63 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Site da Atlética Gallus 
 
-Currently, two official plugins are available:
+Bem-vindo ao repositório do site para a Atlética Gallus! 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto tem como objetivo criar um portal dinâmico e moderno para a atlética, onde membros e visitantes podem acessar informações sobre eventos, equipes, produtos e muito mais.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Sumário 
+- [Objetivo](#objetivo)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação ](#instalação)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Objetivo 
+Este projeto visa fornecer uma plataforma digital para a Atlética Gallus, facilitando a comunicação, venda de produtos, e promoção de eventos esportivos e sociais. O site será responsivo, acessível e fácil de navegar, refletindo a identidade da Atlética.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Funcionalidades
+**Página Inicial:** Informações gerais sobre a atlética e destaques de eventos.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+**Calendário de Eventos:** Agenda de campeonatos e festas.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# gallus
+**Loja Online:**  Venda de produtos oficiais (uniformes, acessórios, etc.).
+
+**Galeria de Fotos:**  Imagens dos eventos e conquistas da Atlética.
+
+**Equipe e Modalidades:** Informações sobre as equipes e modalidades esportivas.
+
+**Contato:** Formulário para contato e links para redes sociais.
+
+## Tecnologias Utilizadas
+- **Front-end:** HTML, CSS, JavaScript, React.ts
+- **Controle de Versão:** Git e GitHub
+
+## Instalação
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:1. Clone o repositório:
+   ```bash
+   git clone https://github.com/GuSiDias/Site-Gallus.git
+   ```
+ 2.  Navegue até o diretório do projeto:
+```bash
+cd Site Gallus
+   ```
+3. Instale as dependências:
+```bash
+npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+   ```
+
+5. Abra o navegador e acesse ``` http://localhost:5173 ```.
+
+
+
+
+
+    
