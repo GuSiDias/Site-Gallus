@@ -38,9 +38,9 @@ Este projeto visa fornecer uma plataforma digital para a Atlética Gallus, facil
 Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:1. Clone o repositório:
-   ```bash
-   git clone https://github.com/GuSiDias/Site-Gallus.git
-   ```
+```bash
+ git clone https://github.com/GuSiDias/Site-Gallus.git
+  ```
  2.  Navegue até o diretório do projeto:
 ```bash
 cd Site Gallus
